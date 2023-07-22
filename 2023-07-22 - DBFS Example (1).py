@@ -37,6 +37,10 @@ df.createOrReplaceTempView(temp_table_name)
 
 # COMMAND ----------
 
+temp_table_name.write.mode('append').format('csv').save('/FileStore/tables/')
+
+# COMMAND ----------
+
 # MAGIC %sql
 # MAGIC
 # MAGIC /* Query the created temp table in a SQL cell */
