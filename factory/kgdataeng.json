@@ -1,0 +1,9 @@
+{
+	"name": "kgdataeng",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "7b2ee216-2b4d-436d-a2c3-2aed335dd71e",
+		"tenantId": "f463c020-f664-4c38-8a1d-fce306c74826"
+	}
+}
